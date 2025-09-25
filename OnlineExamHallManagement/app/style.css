@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgba(152, 149, 148, 0.399);
+    color: rgba(32, 32, 32, 0.674);
+    overflow-y: scroll;
+}
+
+
+.container_main {
+    flex: 1;
+}
+
+
+.auth {
+    .icon {
+        font-size: 25px;
+        color: rgba(27, 26, 26, 0.399);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    /* width: auto; */
+    height: 45px;
+    object-fit: cover;
+}
+
+h4, h5, h1 {
+    color: rgba(73, 70, 70, 0.662);
+}
+
+.container_left {
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: start;
+    gap: 5px;
+
+    border: 1px solid rgba(59, 55, 55, 0.487);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+
+    .search {
+        border: 1px solid rgba(59, 55, 55, 0.487);
+    }
+
+    .btn-search {
+        border: 1px solid rgba(59, 55, 55, 0.487);
+    }
+}
+
+.container_right {
+    border: 1px solid rgba(59, 55, 55, 0.487);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.container_trivia {
+    border: 1px solid rgba(59, 55, 55, 0.487);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+footer {
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.container {
+    .list-group {
+        li {
+            background-color: #e7e6e6;
+            border: 1px solid rgba(0, 0, 0, 0.104);
+        }
+    }
+}
+
+hr {
+    border: 1px solid #333;
+}
+
+
+/* Login.php start*/
+.container_login {
+    border: 1px solid rgba(59, 55, 55, 0.487);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+
+    button {
+        border: 1px solid rgba(59, 55, 55, 0.487);
+    }
+}
+
+/* login.php end */
+
+
+/* register.php start */
+.container_register {
+    border: 1px solid rgba(59, 55, 55, 0.487);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+
+    button {
+        border: 1px solid rgba(59, 55, 55, 0.487);
+    }
+}
+
+/* register.php end */
+
+
+/* news.php start */
+.container_news {
+
+    .container {
+        border: 1px solid rgba(59, 55, 55, 0.487);
+        border-radius: 10px;
+        background-color: #f7f7f7;
+
+
+    }
+}
+/* news.php end */
+
+
+/* about.php start */
+.card-body{
+    background-color: rgba(152, 149, 148, 0.399);
+    border: 1px solid rgba(59, 55, 55, 0.487);
+    
+}
+/* about.php end */
+
+
+/* schedules.php start */
+.image_container {
+    position: relative;
+}
+
+.image:hover {
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image_container:hover .icons {
+    opacity: 1;
+}
+
+
+.icons i {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.image-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.image-popup span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 101;
+}
+
+.image-popup a{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 101;
+}
+
+.image-popup img {
+    position: absolute;
+    max-width: 75%;  /* Ensures the image doesn't overflow the screen */
+    max-height: 75%; /* Ensures the image doesn't overflow the screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the image */
+    border: 2px solid #fff;
+    border-radius: 5px;
+    object-fit: contain; /* Ensures the image fits within the container */
+}
+
+@media (max-width: 768px) {
+    .image-popup img {
+        width: 95%;  /* Scales for smaller screens */
+        height: auto;
+    }
+}
+
+/* schedules.php end */
+
+
+
+
+/* profile.php start */
+.profile-img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+/* profile.php end */
+
+
+
+.bg-milam{
+    background: #e7e6e6;
+    border: none;
+    outline: none;
+    margin-top: -1.3rem;
+}
