@@ -150,5 +150,5 @@ Feel free to fork this repository and submit pull requests.
 ## 🧩 Author
 
 Developed by **[Raman Shakya]**  
-📧 ramanshakya9863@example.com*  
+📧 ramanshakya9863@gmail.com*  
 🌐 [https://github.com/Raman992](https://github.com/Raman992)
